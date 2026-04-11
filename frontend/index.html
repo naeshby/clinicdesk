@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>ClinicDesk — Online Appointment Booking for Small Clinics</title>
+    <meta name="description" content="Book a clinic appointment online in under 60 seconds. No WhatsApp, no manual registers — just a simple form and instant lead capture for your clinic team." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://clinicdesk.vercel.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="ClinicDesk — Online Appointment Booking for Small Clinics" />
+    <meta property="og:description" content="Replace WhatsApp and paper registers with a proper booking page and admin dashboard. Built for small clinics." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://clinicdesk.vercel.app/" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Google Analytics GA4 — replace G-XXXXXXXXXX with your real Measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+  </head>
+  <body class="font-body bg-cream text-ink">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
