@@ -13,7 +13,7 @@ project-root/
 │   │   ├── pages/
 │   │   │   ├── Home.jsx    # Landing page with hero + CTA
 │   │   │   ├── Book.jsx    # Appointment booking form
-│   │   │   └── Admin.jsx   # Admin dashboard (route: /admin)
+│   │   │   └── Desk.jsx   # Desk dashboard (route: /Desk)
 │   │   ├── App.jsx
 │   │   └── main.jsx
 │   ├── public/
@@ -37,7 +37,7 @@ project-root/
 |-----------|------------------|------------------------------------------|
 | `/`       | Home             | Hero, services, how-it-works, CTA        |
 | `/book`   | Book Appointment | Form — submits to Supabase via backend   |
-| `/admin`  | Admin Dashboard  | View, filter, update, delete, export CSV |
+| `/Desk`  | Desk Dashboard  | View, filter, update, delete, export CSV |
 
 ---
 
@@ -93,7 +93,7 @@ npm run dev        # runs on http://localhost:5173
 6. Add environment variables:
    - `SUPABASE_URL` = your Supabase project URL
    - `SUPABASE_ANON_KEY` = your anon key
-   - `FRONTEND_URL` = your Vercel frontend URL (e.g. `https://clinicdesk.vercel.app`)
+   - `FRONTEND_URL` = your Vercel frontend URL (e.g. `https://https://clinicdesk-beige.vercel.app`)
 7. Copy the Render service URL (e.g. `https://clinicdesk-api.onrender.com`).
 
 ### Frontend → Vercel
@@ -108,7 +108,7 @@ npm run dev        # runs on http://localhost:5173
 ### Final Steps
 
 - In `frontend/index.html`, replace `G-XXXXXXXXXX` with your real **GA4 Measurement ID**.
-- Update `https://clinicdesk.vercel.app` in `sitemap.xml` and `robots.txt` with your real domain.
+- Update `https://https://clinicdesk-beige.vercel.app` in `sitemap.xml` and `robots.txt` with your real domain.
 - In `backend/.env`, set `FRONTEND_URL` to your Vercel URL.
 
 ---
@@ -117,7 +117,7 @@ npm run dev        # runs on http://localhost:5173
 
 - Appointment booking form with full validation
 - Automatic lead tracking (every booking = a lead)
-- Admin dashboard at `/admin` with:
+- Desk dashboard at `/Desk` with:
   - Live stats (Total / Pending / Completed / No-show)
   - Filter by status
   - Inline status update dropdown

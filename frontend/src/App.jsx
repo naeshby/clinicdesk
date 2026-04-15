@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import Home from './pages/Home'
 import Book from './pages/Book'
-import Admin from './pages/Admin'
+import Desk from './pages/Desk'
 
 // GA4 page view tracker
 function PageTracker() {
@@ -24,7 +24,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/book" element={<Book />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route path="/Desk" element={<Desk />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

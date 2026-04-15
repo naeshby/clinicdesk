@@ -18,7 +18,7 @@ ALTER TABLE appointments ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "Allow public insert" ON appointments
   FOR INSERT TO anon WITH CHECK (true);
 
--- Allow public read (for admin via backend — backend uses service_role key)
+-- Allow public read (for Desk via backend — backend uses service_role key)
 CREATE POLICY "Allow public read" ON appointments
   FOR SELECT TO anon USING (true);
 

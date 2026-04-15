@@ -17,7 +17,7 @@ const STATUS_ICONS = {
   'No-show': '❌',
 }
 
-export default function Admin() {
+export default function Desk() {
   const [appointments, setAppointments] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -27,7 +27,7 @@ export default function Admin() {
   const [searchQuery, setSearchQuery] = useState('')
 
   useEffect(() => {
-    document.title = 'Admin Dashboard — ClinicDesk'
+    document.title = 'Desk Dashboard — ClinicDesk'
   }, [])
 
   const fetchAppointments = useCallback(async () => {
@@ -134,7 +134,7 @@ export default function Admin() {
               Clinic<span className="text-brand-400">Desk</span>
             </Link>
             <span className="text-slate-600 text-sm">|</span>
-            <span className="text-slate-400 text-sm font-medium">Admin Dashboard</span>
+            <span className="text-slate-400 text-sm font-medium">Desk Dashboard</span>
           </div>
           <div className="flex items-center gap-3">
             <button
@@ -313,7 +313,7 @@ export default function Admin() {
         </div>
 
         <p className="mt-6 text-center text-xs text-ink-muted">
-          Admin access — <Link to="/" className="text-brand-600 hover:underline">Return to site</Link>
+          Desk access — <Link to="/" className="text-brand-600 hover:underline">Return to site</Link>
         </p>
       </main>
     </div>

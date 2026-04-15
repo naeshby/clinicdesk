@@ -22,14 +22,14 @@ const PAIN_POINTS = [
   },
   {
     before: 'Zero follow-up',
-    after: 'Admin dashboard',
+    after: 'Desk dashboard',
     desc: 'Your staff can see every pending appointment, mark no-shows, and export the full patient lead list in one click.',
   },
 ]
 
 const STEPS = [
   { step: '01', title: 'Patient books online', desc: 'They fill in their name, phone, email, preferred date and time, and consultation type. Takes under 60 seconds from any phone.' },
-  { step: '02', title: 'Lead is captured instantly', desc: 'The appointment appears in your admin dashboard the moment it is submitted — no manual entry, no missed messages.' },
+  { step: '02', title: 'Lead is captured instantly', desc: 'The appointment appears in your Desk dashboard the moment it is submitted — no manual entry, no missed messages.' },
   { step: '03', title: 'Your team follows up', desc: 'Staff see all Pending appointments, confirm them, mark no-shows, and export the full list for weekly reviews.' },
 ]
 

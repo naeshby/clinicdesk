@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /admin
+Disallow: /Desk
 
-Sitemap: https://clinicdesk.vercel.app/sitemap.xml
+Sitemap: https://https://clinicdesk-beige.vercel.app/sitemap.xml
