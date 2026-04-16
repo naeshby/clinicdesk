@@ -190,7 +190,7 @@ export default function Home() {
           <p className="text-slate-400 text-base mb-10 leading-relaxed">
             Give your patients a proper booking page and give your staff a dashboard that actually tracks who needs follow-up.
           </p>
-          <Link to="/book" className="inline-flex items-center gap-2 bg-accent hover:bg-amber-400 text-ink font-semibold text-sm px-8 py-4 rounded-lg transition-all duration-200 active:scale-95 shadow-lg">
+          <Link to="/desk" className="inline-flex items-center gap-2 bg-accent hover:bg-amber-400 text-ink font-semibold text-sm px-8 py-4 rounded-lg transition-all duration-200 active:scale-95 shadow-lg">
             Book an Appointment Now →
           </Link>
         </div>
